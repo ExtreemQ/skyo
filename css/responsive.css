@@ -1,0 +1,206 @@
+@media(max-width:575.99px){
+    .menu_bg{
+        padding: 15px 0;
+    }
+    .banner_main_bg{
+        padding: 100px 0;
+    }
+    .proile_banner_img img{
+        width: 150px;
+        height: 250px;
+    }
+    .banner_items{
+        display: flex;
+        justify-content: center;
+    }
+    .proile_banner_img{
+        padding-bottom: 20px;
+    }
+    .proile_banner_img,
+    .banner_main_text{
+        text-align: center!important;
+    }
+    .banner_main_text h3{
+        padding-top: 20px;
+        font-size: 32px;
+        margin-left: -220px;
+    }
+
+    /* banner slide */
+
+    .expert_in h1{
+        font-size: 45px;
+    }
+
+
+    /* about start */
+    .about_title,
+    .my_service_title,
+    .portfolio_title{
+        text-align: center;
+    }
+    .about_main_inner{
+        flex-direction: column;
+    }
+    .about_main_menu{
+        width: 200px;
+    }
+    .about_main_menu_items{
+        padding-top: 40px;
+    }
+    .about_me_text h4{
+        padding-top: 15px;
+    }
+
+
+
+    .success-1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* about end */
+
+
+
+    /* my service start */
+
+    .my_service_title p,
+    .portfolio_title p{
+        padding: 20px 15px 0 15px;
+    }
+    .my_service_main_inner{
+        max-width: 360px;
+    }
+
+
+    /* my service end */
+
+    .portfolio_title h2{
+        font-size: 60px;
+    }
+}
+@media(min-width:576px) and (max-width:767.99px){
+    .expert_in h1{
+        font-size: 40px;
+    }
+    .banner_main_text h2{
+        font-size: 32px;
+    }
+
+    .container, .container-sm {
+        max-width: 560px;
+    }
+
+
+
+    /* service part */
+
+    .my_services_main{
+        display: flex;
+        justify-content: center;
+    }
+    .my_service_main_inner{
+        max-width: 360px;
+    }
+    .my_service_main_inner{
+        max-width: 340px;
+    }
+
+    /* service part end */
+}
+
+@media(max-width:767.99px){
+    .about_title h2::after,
+    .my_service_title h2::after,
+    .portfolio_title h2::after,
+    .contact_title h2::after{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:991.99px){
+    .navbar-nav{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nav_item_mb{
+        margin-bottom: 30px;
+    }
+    .search_icons{
+        margin-left: -18px;
+        margin-bottom: 15px;
+    }
+    .navbar-collapse{
+        background-color: #fff;
+        margin: 15px 0;
+    }
+
+
+    .certifi-1{
+        margin-left: 10px;
+    }
+    .certifi-1 i{
+        font-size: 16px;
+    }
+    .certifi-1 h6{
+        font-size: 20px;
+    }
+
+    .contact_social{
+        justify-content: center;
+    }
+    .service_dn{
+        display: none;
+    }
+
+}
+@media(min-width:576px){
+    .banner_main_text{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+}
+@media(max-width:1199.99px){
+    .expert_in h1 br{
+        display: block;
+    }
+
+    .my_service_main_inner{
+        max-width: 360px;
+    }
+}
+@media(min-width:576px){
+    .about_main_menu{
+        width: 200px;
+        justify-content: space-between;
+    }
+    .about_main_menu_items{
+        width: 60%;
+    }
+}
+@media(max-width:1024px){
+    .portfolio_btn{
+        max-width: 300px;
+        justify-content: left!important;
+        padding: 0 30px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+    .port_btn_mb{
+        margin-bottom: 15px;
+    }
+    .portfolio_btn ul{
+        display: block;
+    }
+}

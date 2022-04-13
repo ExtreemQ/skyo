@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyo</title>
+
+    <!-- ======================= All Css Link Start ====================== -->
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- ======================= All Css Link Start ====================== -->
+</head>
+<body>
+
+
+    <!-- =================================================================================
+    =================================== Navbar Part Start ==================================
+    ================================================================================== -->
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light menu_bg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="images/nav_logo.png" alt="nav_logo">
+          </a>
+          <button class="navbar-toggler menu_bar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item nav_item_mb">
+                    <a class="house_icon" href="#banner"><i class="active fa-solid fa-house"></i><p>Home</p></a>
+                </li>
+                <li class="nav-item nav_item_mb">
+                    <a class="about_icon" href="#about"><i class="fa-solid fa-info"></i><p>About</p></a>
+                </li>
+                <li class="nav-item nav_item_mb">
+                    <a class="journal_icon" href="#service"><i class="fa-solid fa-gears"></i><p>Service</p></a>
+                </li>
+                <li class="nav-item nav_item_mb">
+                    <a class="images_icon" href="#portfolio"><i class="fa-solid fa-image"></i><p>Portfolio</p></a>
+                </li>
+                <li class="nav-item nav_item_mb">
+                    <a class="contact_icon" href="#contact"><i class="fa-solid fa-id-card"></i><p>Contact</p></a>
+                </li>
+                <li class="nav-item nav_item_mb">
+                    <a class="pricing_icon" href="#plan"><i class="fa-solid fa-dollar-sign"></i><p>Pricing</p></a>
+                </li>
+                <li class="search_icons header-search">
+                    <i class="fas fa-search"></i>
+                </li>
+            </ul>
+            <div class="search" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="search-close">
+                    <span><i class="fas fa-times"></i></span>
+                </div>
+                <div class="search_main text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="title">... Search Here ...</h2>
+                                <div class="search-form">
+                                    <form action="#">
+                                        <input type="text" name="search" placeholder="Type keywords here">
+                                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+          </div>
+        </div>
+      </nav>
+
+
+
+    <!-- =================================================================================
+    =================================== Navbar Part End ==================================
+    ================================================================================== -->
+
+    
+
+
+
+
+
+
+
+    <!-- =================================================================================
+    =================================== Banner Part Start ==================================
+    ================================================================================== -->
+
+
+
+    <section id="banner">
+        <div id="animation_bg"></div>
+        <div class="banner_main">
+            <div class="banner_main_bg">
+                <div class="container">
+                    <div class="row banner_items d-flex justify-content-between">
+                        <div class="col-12 col-sm-4">
+                            <div class="proile_banner_img text-start">
+                                <img class="img-fluid" src="images/banner_profile_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <div class="banner_main_text text-center">
+                                <h3>I <span>am</span></h3>
+                                <h2>Richard <span>Skyo</span></h2>
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item expert_in active">
+                                        <h1>Web <br> <span>Designer</span></h1>
+                                      </div>
+                                      <div class="carousel-item expert_in">
+                                        <h1>Web <br><span>Developer</span></h1>
+                                      </div>
+                                      <div class="carousel-item expert_in">
+                                        <h1>App <br><span>Developer</span></h1>
+                                      </div>
+                                      <div class="carousel-item expert_in">
+                                        <h1>Cyber <br><span>Security</span></h1>
+                                      </div>
+                                      <div class="carousel-item expert_in">
+                                        <h1>Graphics <br><span>Designer</span></h1>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev slide_arrows" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                      <span aria-hidden="true">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                      </span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next slide_arrows" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                      <span aria-hidden="true">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                      </span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Based In Canada, Since 2008</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =================================================================================
+    =================================== Navbar Part End ==================================
+    ================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+    <!-- =================================================================================
+    =================================== About Part Start ==================================
+    ================================================================================== -->
+
+
+
+    <section id="about">
+        <div class="container">
+            <div class="about_title">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about_main">
+
+                <div class="d-flex align-items-start about_main_inner">
+                    <div class="nav flex-column nav-pills me-3 about_main_menu" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa-solid fa-user"></i>Profile</button>
+
+                        <button class="nav-link" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="true"><i class="fa fa-bar-chart"></i>Skills</button>
+
+                        <button class="nav-link" id="v-pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-certificate" type="button" role="tab" aria-controls="v-pills-certificate" aria-selected="false"><i class="fa-solid fa-certificate"></i>Certificate</button>
+
+                        <button class="nav-link" id="v-pills-chat-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chat" type="button" role="tab" aria-controls="v-pills-chat" aria-selected="false"><i class="fa-solid fa-arrow-trend-up"></i>Success</button>
+
+                        <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fa-solid fa-phone"></i>Contact</button>
+                    </div>
+
+                    <div class="tab-content about_main_menu_items" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active about_me_text profile_a" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <h3>Hello, I am</h3>
+                            <h2>Richard Syko</h2>
+                            <h4>From Canada</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa pariatur rerum voluptatum numquam fugit quidem ratione nisi, consequatur facere. <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos animi laborum fugiat.</p>
+                            <a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+
+                        <div class="tab-pane fade about_me_text" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
+                            <h4>My Latest Skills</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iure iste quas tempore ex aspernatur.</p>
+                            <div class="row">
+                                <div class="col-lg-12 p-bar progress_title">
+                                    <span>HTML</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 p-bar progress_title">
+                                    <span>CSS</span>
+                                    <div class="progress">
+                                        <div class="progress-bar css_clr" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-11 p-bar progress_title">
+                                    <span>PHP</span>
+                                    <div class="progress">
+                                        <div class="progress-bar php_clr" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 p-bar progress_title">
+                                    <span>PYTHON</span>
+                                    <div class="progress">
+                                        <div class="progress-bar pythod_clr" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade about_me_text" id="v-pills-certificate" role="tabpanel" aria-labelledby="v-pills-certificate-tab">
+                            <h4>My Certificates</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quidem vel fuga ut laudantium animi neque consequuntur autem saepe</p>
+                            <div class="certifi-1 d-flex">
+                                <i class="fa-solid fa-certificate"></i>
+                                <h6>Best <span>Web Designer, </span>2015</h6>
+                            </div>
+                            <div class="certifi-1 d-flex">
+                                <i class="fa-solid fa-certificate"></i>
+                                <h6>Best <span>Web Developer, </span>2018</h6>
+                            </div>
+                            <div class="certifi-1 d-flex">
+                                <i class="fa-solid fa-certificate"></i>
+                                <h6>Best <span>App Developer,</span> 2021</h6>
+                            </div>
+                            <div class="certifi-1 d-flex">
+                                <i class="fa-solid fa-certificate"></i>
+                                <h6>Best <span>Cyber Security,</span> 2021</h6>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade about_me_text" id="v-pills-chat" role="tabpanel" aria-labelledby="v-pills-chat-tab">
+                            <h4>My Success</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at consectetur ullam magnam perspiciatis voluptatibus. Accusamus suscipit vero sit fugiat?</p>
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-4 success-1">
+                                    <h3 class="counter"
+                                        data-duration="5000"
+                                        data-easing="linear">
+                                        4959
+                                    </h3>
+                                    <h2>Project Done</h2>
+                                </div>
+                                <div class="col-4 success-1">
+                                    <h3 class="counter"
+                                        data-duration="5000"
+                                        data-easing="linear">
+                                        3051
+                                    </h3>
+                                    <h2>Total Clients</h2>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-4 success-1">
+                                    <h3 class="counter"
+                                        data-duration="5000"
+                                        data-easing="linear">
+                                        1520
+                                    </h3>
+                                    <h2>Live Projects</h2>
+                                </div>
+                                <div class="col-4 success-1">
+                                    <h3 class="counter"
+                                        data-duration="5000"
+                                        data-easing="linear">
+                                        150002
+                                    </h3>
+                                    <h2>Earnings</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade about_me_text contact_me" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
+                            <h4>Contact With Me</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis similique accusamus eaque tenetur, dignissimos facere mollitia illum ratione officia earum?</p>
+                            <div class="contact_me_inner d-flex">
+                                <i class="fa-solid fa-envelope"></i>
+                                <h5>richardsyko@gmail.com</h5>
+                            </div>
+                            <div class="contact_me_inner d-flex">
+                                <i class="fa-solid fa-globe"></i>
+                                <h5>Toronto, Canada</h5>
+                            </div>
+                            <div class="contact_me_inner d-flex">
+                                <i class="fa-solid fa-phone"></i>
+                                <h5>Toronto, Canada</h5>
+                            </div>
+                            <div class="contact_social d-flex">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                                <a href="#"><i class="fa-brands fa-tumblr-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =================================================================================
+    =================================== About Part End ==================================
+    ================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =================================================================================
+    =================================== Service Part Start ==================================
+    ================================================================================== -->
+
+
+
+    <section id="service">
+        <div class="container">
+            <div class="my_service_title">
+                <h2>My <span>Services</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident obcaecati itaque necessitatibus sunt! Voluptatum, dolore sapiente sit impedit minima reprehenderit!</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 my_services_main">
+                    <div class="my_service_main_inner text-center">
+                        <i class="fa-solid fa-code head_icon"></i>
+                        <h3>Web Designer</h3>
+                        <i class="fa-solid fa-code btm_icon"></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto placeat velit enim ipsam perspiciatis accusantium explicabo laboriosam consectetur.</p>
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#">Read More</a></li>
+                            <li><a href="#plan">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 my_services_main">
+                    <div class="my_service_main_inner text-center">
+                        <i class="fa-solid fa-code head_icon"></i>
+                        <h3>Web Developing</h3>
+                        <i class="fa-solid fa-code btm_icon"></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto placeat velit enim ipsam perspiciatis accusantium explicabo laboriosam consectetur.</p>
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#">Read More</a></li>
+                            <li><a href="#plan">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 my_services_main">
+                    <div class="my_service_main_inner text-center">
+                        <i class="fa-brands fa-app-store head_icon"></i>
+                        <h3>App Developing</h3>
+                        <i class="fa-brands fa-app-store btm_icon"></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto placeat velit enim ipsam perspiciatis accusantium explicabo laboriosam consectetur.</p>
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#">Read More</a></li>
+                            <li><a href="#plan">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 my_services_main service_dn">
+                    <div class="my_service_main_inner text-center">
+                        <i class="fa-solid fa-lock head_icon"></i>
+                        <h3>Cyber Security</h3>
+                        <i class="fa-solid fa-lock btm_icon"></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto placeat velit enim ipsam perspiciatis accusantium explicabo laboriosam consectetur.</p>
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#">Read More</a></li>
+                            <li><a href="#plan">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 my_services_main service_dn">
+                    <div class="my_service_main_inner text-center">
+                        <i class="fa-solid fa-pencil head_icon"></i>
+                        <h3>Graphics Designer</h3>
+                        <i class="fa-solid fa-pencil btm_icon"></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto placeat velit enim ipsam perspiciatis accusantium explicabo laboriosam consectetur.</p>
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#">Read More</a></li>
+                            <li><a href="#plan">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+                <!-- plan -->
+            <div class="plan_part" id="plan">
+                <h3>Plan</h3>
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6 col-lg-4 plan_part_main">
+                        <div class="plan text-center">
+                            <ul class="web_design_plan">
+                                <li><h4>Web Design</h4></li>
+                                <li><h6>PSD to HTML / FIGMA To HTML</h6></li>
+                            </ul>
+                            <h5>$50</h5>
+                            <ul class="web_design_items">
+                                <li>1 Page</li>
+                                <li>Slider/Scroller</li>
+                                <li>Server Upload</li>
+                                <li>Responsive Design</li>
+                                <li>Browser Compatibility</li>
+                            </ul>
+                            <div class="plan_hire_btn">
+                                <a href="#">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 plan_part_main">
+                        <div class="plan text-center">
+                            <ul class="web_design_plan">
+                                <li><h4>Hourly</h4></li>
+                                <li><h6>Available for Hourley Basis</h6></li>
+                            </ul>
+                            <h5>$60</h5>
+                            <ul class="web_design_items">
+                                <li>Web Design</li>
+                                <li>Web Development</li>
+                                <li>Cyber Security</li>
+                                <li>App Development</li>
+                                <li>X</li>
+                            </ul>
+                            <div class="plan_hire_btn">
+                                <a href="#">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 plan_part_main">
+                        <div class="plan text-center">
+                            <ul class="web_design_plan">
+                                <li><h4>Full Time</h4></li>
+                                <li><h6>Available for Full Time</h6></li>
+                            </ul>
+                            <h5>$1500</h5>
+                            <ul class="web_design_items">
+                                <li>Web Design</li>
+                                <li>Web Development</li>
+                                <li>Cyber Security</li>
+                                <li>App Development</li>
+                                <li>Graphics Design</li>
+                            </ul>
+                            <div class="plan_hire_btn">
+                                <a href="#">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =================================================================================
+    =================================== Service Part End ==================================
+    ================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =================================================================================
+    =================================== Portfolio Part Start ==================================
+    ================================================================================== -->
+
+    
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio_title">
+                <h2>My <span>Portfolio</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident obcaecati itaque necessitatibus sunt! Voluptatum, dolore sapiente sit impedit minima reprehenderit!</p>
+            </div>
+            <div class="portfolio_main">
+                <div class="portfolio_btn d-flex justify-content-center">
+                    <ul class="nav nav-pills bg_port" id="pills-tab" role="tablist">
+                        <li class="nav-item port_btn_mb" role="presentation">
+                          <button class="nav-link port_btn active" id="pills-web_Design-tab" data-bs-toggle="pill" data-bs-target="#pills-web_Design" type="button" role="tab" aria-controls="pills-web_Design" aria-selected="true">Web Design</button>
+                        </li>
+                        <li class="nav-item port_btn_mb" role="presentation">
+                          <button class="nav-link port_btn" id="pills-web_dvlpmnt-tab" data-bs-toggle="pill" data-bs-target="#pills-web_dvlpmnt" type="button" role="tab" aria-controls="pills-web_dvlpmnt" aria-selected="false">Web Development</button>
+                        </li>
+                        <li class="nav-item port_btn_mb" role="presentation">
+                          <button class="nav-link port_btn" id="pills-grpcs_dsgn-tab" data-bs-toggle="pill" data-bs-target="#pills-grpcs_dsgn" type="button" role="tab" aria-controls="pills-grpcs_dsgn" aria-selected="false">Graphics Design</button>
+                        </li>
+                        <li class="nav-item port_btn_mb" role="presentation">
+                          <button class="nav-link port_btn" id="pills-app_dvlpmnt-tab" data-bs-toggle="pill" data-bs-target="#pills-app_dvlpmnt" type="button" role="tab" aria-controls="pills-app_dvlpmnt" aria-selected="false">App Development</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link port_btn" id="pills-cybr_scrty-tab" data-bs-toggle="pill" data-bs-target="#pills-cybr_scrty" type="button" role="tab" aria-controls="pills-cybr_scrty" aria-selected="false">Cyber Security</button>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="portfolio_items">
+                    <div class="tab-content portfolio_items_inner" id="pills-tabContent">
+
+
+
+                        <!-- Web Design -->
+                        <div class="tab-pane fade show active" id="pills-web_Design" role="tabpanel" aria-labelledby="pills-web_Design-tab">
+                            <div class="row">
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Important%20Files/My%20websites/Extreem%20Quality-2/index.html"><img class="img-fluid w-100" src="images/web_design_2.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Important%20Files/My%20websites/Extreem%20Quality-2/index.html"><img class="img-fluid w-100" src="images/web_design_2.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- Web development -->
+                        <div class="tab-pane fade" id="pills-web_dvlpmnt" role="tabpanel" aria-labelledby="pills-web_dvlpmnt-tab">
+                            <div class="row">
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Responsive%20Website%20Course/Practice%20File/Class%20Practice/Assaignment/00/index.html"><img class="img-fluid w-100" src="images/web_dvlpmnt_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Responsive%20Website%20Course/Practice%20File/Class%20Practice/Assaignment/00/index.html"><img class="img-fluid w-100" src="images/web_dvlpmnt_1.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Graphics Design -->
+                        <div class="tab-pane fade" id="pills-grpcs_dsgn" role="tabpanel" aria-labelledby="pills-grpcs_dsgn-tab">
+                            <div class="row grpcs_dsgn">
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_2.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_2.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_2.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href=""><img class="img-fluid w-100" src="images/Graphics_design_2.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- App Development -->
+                        <div class="tab-pane fade" id="pills-app_dvlpmnt" role="tabpanel" aria-labelledby="pills-app_dvlpmnt-tab">
+                            <div class="row">
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Important%20Files/My%20websites/Extreem%20Quality-2/index.html"><img class="img-fluid w-100" src="images/web_design_2.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Important%20Files/My%20websites/Extreem%20Quality-2/index.html"><img class="img-fluid w-100" src="images/web_design_2.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Cyber Security -->
+                        <div class="tab-pane fade" id="pills-cybr_scrty" role="tabpanel" aria-labelledby="pills-cybr_scrty-tab">
+                            <div class="row">
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Responsive%20Website%20Course/Practice%20File/Class%20Practice/Assaignment/00/index.html"><img class="img-fluid w-100" src="images/web_dvlpmnt_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="http://extreemq.com/"><img class="img-fluid w-100" src="images/web_design_1.png" alt=""></a>
+                                </div>
+                                <div class="col-6 col-lg-3 port_items_1">
+                                    <a href="file:///E:/0.My%20Personal%20file/Responsive%20Website%20Course/Practice%20File/Class%20Practice/Assaignment/00/index.html"><img class="img-fluid w-100" src="images/web_dvlpmnt_1.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+        </div>
+    </section>
+
+
+    <!-- =================================================================================
+    =================================== Portfolio Part End ==================================
+    ================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =================================================================================
+    =================================== Contact Part Start ==================================
+    ================================================================================== -->
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact_title">
+                <h2>Contact <span>Me</span></h2>
+                <p>Send me a note, and let's get started on your project today!</p>
+            </div>
+            <div class="row contact_form">
+                <div class="col-lg-9 mx-auto">
+                    <form id="contact-form" class="form-dark" action="#" method="post">
+                      <div class="row g-4">
+                        <div class="col-12 col-md-6 contact_form_inner">
+                           <input name="name" type="text" class="form-control contact_form_item bg-transparent border-2 border-secondary" required="" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6 contact_form_inner">
+                           <input name="email" type="email" class="form-control contact_form_item bg-transparent border-2 border-secondary" required="" placeholder="Your Email">
+                        </div>
+                        <div class="col-md-12 contact_form_inner">
+                           <textarea name="form-message" class="form-control contact_form_item bg-transparent border-2 border-secondary" rows="5" required="" placeholder="Tell us more about your needs........"></textarea>
+                        </div>
+                        <div class="col-md-12 text-center">
+                           <button class="contact_form_btn d-inline-flex" type="submit">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =================================================================================
+    =================================== Contact Part End ==================================
+    ================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =================================================================================
+    =================================== Footer Part End ==================================
+    ================================================================================== -->
+
+
+
+        <section id="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-8 col-lg-6 text-center">
+                        <div class="footer_logo">
+                            <img class="img-fluid" src="images/footer_logo.png" alt="footer_logo">
+                            <div class="footer_links">
+                                <h4>Quick links</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#service">Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>Copyright By <span>Skyo</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- =================================================================================
+    =================================== Footer Part End ==================================
+    ================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--================================== All js link Start ===================================-->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="js/counter.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+    <script src="js/custom.js"></script>
+
+    <!--================================== All js link End ===================================-->
+
+</body>
+</html>
